@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--mvn install:install-file -Dfile=C:\Users\akarnov\GitHub\Learning\SpringTemplates\jms\dto\target\dto-1.0-SNAPSHOT.jar -DgroupId=ru.siksmfp.spring.jms -DartifactId=dto -Dversion={1.0-SNAPSHOT} -Dpackaging=jar-->
+
+    <groupId>ru.siksmfp.spring.jms</groupId>
+    <artifactId>dto</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+</project>

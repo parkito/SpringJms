@@ -1,0 +1,6 @@
+activemq:
+    broker-url: tcp://localhost:61616
+    username: username
+    password: password
+queue:
+    queue1: queue.q
