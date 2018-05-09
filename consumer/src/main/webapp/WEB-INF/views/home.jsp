@@ -4,27 +4,22 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 
-<h1>Employees List</h1>
+<h1>User List</h1>
 <table border="2" width="70%" cellpadding="2">
     <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Salary</th>
-        <th>Designation</th>
-        <th>Edit</th>
-        <th>Delete</th>
+        <th>Email</th>
+        <th>First name</th>
+        <th>Second name</th>
+        <th>Role</th>
     </tr>
-    <c:forEach var="emp" items="${list}">
+    <c:forEach var="user" items="${result}">
         <tr>
-            <td>${emp.id}</td>
-            <td>${emp.name}</td>
-            <td>${emp.salary}</td>
-            <td>${emp.designation}</td>
-            <td><a href="editemp/${emp.id}">Edit</a></td>
-            <td><a href="deleteemp/${emp.id}">Delete</a></td>
+            <td>${user.email}</td>
+            <td>${user.firstName}</td>
+            <td>${user.secondName}</td>
+            <td>${user.role}</td>
         </tr>
     </c:forEach>
 </table>
 <br/>
-<a href="empform">Add New Employee</a>
 </html>
