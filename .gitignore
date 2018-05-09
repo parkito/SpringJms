@@ -1,6 +1,6 @@
 syntax: glob
-/mydb/
-/activemq-data/
+/*/mydb/
+/*/activemq-data/
 *.idea
 .gradle/
 /*/gradle/
